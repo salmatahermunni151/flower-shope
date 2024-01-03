@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.shop-parent{
+    display: flex;
+    gap: 150px;
+    padding: 50px 100px 0 100px;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    height: 100%;
+    justify-content: center;
+}
+.shop-text{
+    width: 550px;
+}
+.shop-text h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.shop-text p{
+    padding: 20px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+}
+.shop-text button{
+    text-decoration: none;
+    color: #fff;
+    background: #E55473;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.shop-img img{
+    height: 500px;
+}
