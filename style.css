@@ -37,52 +37,164 @@
 .shop-img img{
     height: 500px;
 }
+
+
 /* first section code start */
 section{
-   
+    padding: 150px 0 100px 0;
 }
 .featured-flower-container{
     margin: auto;
     width: 1000px;
 }
 .featured-flower-title{
-    width: 550px;
+    width: 600px;
     margin: auto;
     text-align: center;
 }
 .featured-flower-title h2{
     font-size: 40px;
+    margin-bottom: 10px;
 }
 .featured-flower-title p{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     color: rgba(39, 39, 39, 0.60);
 }
 .featured-flower-parent{
     display: flex;
-    gap: 50px;
-    text-align: center;
+    gap: 30px;
+    
 }
 .featured-flower-items{
     width: 900px;
     height: 600px;
+    padding-top: 80px;
 }
 .featured-img1 img{
-    width: 310px;
-    height: 430px;
+    width: 210px;
+    height: 330px;
 }
 .featured-img1{
-    background: rgba(167, 33, 98, 0.74);
-    border-radius: 150px 150px 0 0;
-    padding: 20px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 200px 200px 0 0;
+    padding: 50px 50px 0 50px;
+}
+.featured-img2{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 200px 200px 0 0;
+    padding: 50px 50px 0 50px;
 }
 .featured-img2 img{
-    width: 310px;
-    height: 430px;
-    background: rgba(5, 151, 160, 0.15);
+    width: 210px;
+    height: 330px;
+}
+.featured-img3{
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 200px 200px 0 0;
+    padding: 50px 50px 0 50px;
 }
 .featured-img3 img{
-    width: 310px;
-    height: 430px;
-    background-color:  lightgrey 50%;
+    width: 210px;
+    height: 330px;
 }
+.featured-flower-items h3{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.service-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding: 50px 60px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.service-items img{
+    width: 88px;
+    height: 88px;
+}
+.service-items h4{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+/* second sectioncode start */
+.deal-parent{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 100%;
+    padding: 50px 100px 0 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.deal-text{
+    width: 530px;
+}
+.deal-text h2{
+    font-size: 40px;
+}
+.deal-text span{
+    color: #E55473;
+}
+.deal-text p{
+    padding: 20px 0;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    line-height: 30px;
+}
+.deal-text button{
+    text-decoration: none;
+    border: none;
+    background-color: #E55473;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;  
+}
+
+/* instagram section start */
+
+.instagram-title{
+    margin: auto;
+    text-align: center;
+    width: 530px;
+}
+.instagram-title h2{
+    font-size: 40px;
+}
+.instagram-title p{
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px 0;
+}
+.instagram-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    grid-gap: 30px;
+    width: 900px;
+    margin: auto;
+    height: 100%;
+}
+.instagram-img{
+    padding: 50px 0 0 0;
+}
+.instagram-img img{
+    width: 340px;
+    height: 390px;
+}
+
+
+/* subscribe section code start */
