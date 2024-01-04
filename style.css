@@ -37,3 +37,52 @@
 .shop-img img{
     height: 500px;
 }
+/* first section code start */
+section{
+   
+}
+.featured-flower-container{
+    margin: auto;
+    width: 1000px;
+}
+.featured-flower-title{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+.featured-flower-title h2{
+    font-size: 40px;
+}
+.featured-flower-title p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.featured-flower-parent{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.featured-flower-items{
+    width: 900px;
+    height: 600px;
+}
+.featured-img1 img{
+    width: 310px;
+    height: 430px;
+}
+.featured-img1{
+    background: rgba(167, 33, 98, 0.74);
+    border-radius: 150px 150px 0 0;
+    padding: 20px;
+}
+.featured-img2 img{
+    width: 310px;
+    height: 430px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.featured-img3 img{
+    width: 310px;
+    height: 430px;
+    background-color:  lightgrey 50%;
+}
