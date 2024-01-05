@@ -40,8 +40,8 @@
 
 
 /* first section code start */
-section{
-    padding: 150px 0 100px 0;
+.sec-1{
+    margin: 100px 0;
 }
 .featured-flower-container{
     margin: auto;
@@ -108,11 +108,11 @@ section{
 .service-parent{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+    gap: 30px;
     text-align: center;
     width: 900px;
-    margin: auto;
-    padding: 50px 60px;
+    margin: 0 auto;
+    padding: 50px;
     background: rgba(39, 39, 39, 0.05);
 }
 .service-items img{
@@ -130,8 +130,7 @@ section{
 .deal-parent{
     display: flex;
     background-color: rgba(229, 84, 115, 0.05);
-    height: 100%;
-    padding: 50px 100px 0 100px;
+    margin: 100px 0;
     justify-content: center;
     align-items: center;
     gap: 120px;
@@ -167,6 +166,10 @@ section{
 
 /* instagram section start */
 
+.sec-3{
+    margin-bottom: 100px;
+}
+
 .instagram-title{
     margin: auto;
     text-align: center;
@@ -179,38 +182,38 @@ section{
     color: rgba(39, 39, 39, 0.60);
     padding: 10px 0;
 }
+
+.instagram-main{
+    display: flex;
+    justify-content: center;
+}
 .instagram-parent{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: center;
-    grid-gap: 30px;
-    width: 900px;
-    margin: auto;
-    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
 }
-.instagram-img{
-    padding: 50px 0 0 0;
+.instagram-items img{
+    width: 260px;
+    height: 260px;
 }
-.instagram-img img{
-    width: 340px;
-    height: 390px;
-}
-
-
 /* subscribe section code start */
 
+.sec-4{
+    margin: 0 100px 150px 100px;
+}
+
 .subscribe-parent{
-            background-image: url(Flower-Asset/Rectangle\ 9.png);
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103)),  url(Flower-Asset/Rectangle\ 9.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
             margin: auto;
-            height: 50vh;
-            width: 1490px;
+            height: 350px;
 }
 .subscribe-items{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
 }
 .subscribe-items h2{
     font-size: 40px;
@@ -252,7 +255,7 @@ footer{
     background: #111010;
     text-align: center;
     color: #fff;
-    padding: 100px 0;
+    padding: 70px 0 50px 0;
 }
 .footer-text{
     width: 520px;
