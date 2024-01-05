@@ -198,3 +198,79 @@ section{
 
 
 /* subscribe section code start */
+
+.subscribe-parent{
+            background-image: url(Flower-Asset/Rectangle\ 9.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin: auto;
+            height: 50vh;
+            width: 1490px;
+}
+.subscribe-items{
+    text-align: center;
+    padding-top: 150px;
+}
+.subscribe-items h2{
+    font-size: 40px;
+}
+.subscribe-items p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 10px;
+}
+.subscribe-items input{
+    border: none;
+    font-size: 18px;
+    width: 600px;
+    height: 60px;
+    padding: 0 15px;
+    outline: none;
+    transition: 0.5s;
+}
+.subscribe-items input:hover{
+    outline: 2px solid grey;
+}
+.subscribe-items button{
+    text-decoration: none;
+    border: none;
+    background-color: #E55473;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.subscribe-btn{
+    padding: 30px 0;
+}
+
+/* footer section code start */
+footer{
+    background: #111010;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer-text{
+    width: 520px;
+    margin: auto;
+}
+.footer-text h2{
+    font-size: 48px;
+}
+.footer-text h2 span{
+    color: #E55473;
+}
+.footer-text p{
+    font-size: p;
+    padding: 10px 0;
+    line-height: 30px;
+}
+.footer-text h6{
+    font-size: 16px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.40);
+}
